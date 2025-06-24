@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrendAura</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="./Fashion Shop Logo with Gold Accents.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Trend<span style="color: var(--secondary-color)"> Aura</span></span>
+            </div>
+
+            <!-- Hamburger -->
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a class="nav-link" href="#">Home</a></li>
+                <li><a class="nav-link" href="#">Shop</a></li>
+                <li><a class="nav-link" href="#">Collections</a></li>
+                <li><a class="nav-link" href="#">Blog</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+
+            <div class="nav-icons">
+                <div class="search-box">
+                    <input type="text" placeholder="Search..." />
+                    <i class="fas fa-search"></i>
+                </div>
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="Shop" class="hero-section">
+            <div class="section-content">
+                <h2 class="title">Feel the Aura of Fashion</h2>
+                <h3 class="subtitle">Wear the Trend, Live the Aura!</h3>
+                <div class="description">
+                    <p>Fashion that speaks your vibe</p>
+                    <p>🛍️ Latest streetwear & chic styles</p>
+                    <p>🚚 Shipping worldwide</p>
+                </div>
+                <button class="btn-order-now">Order Now</button>
+            </div>
+        </section>
+
+        <!-- brands container -->
+
+        <section class="brand-slider">
+            <div class="brands">
+                <div class="brand-item"><img src="nike.jpg" alt="Nike" /></div>
+                <div class="brand-item"><img src="Adidas.jpg" alt="Adidas" /></div>
+                <div class="brand-item"><img src="Puma.png" alt="Puma" /></div>
+                <div class="brand-item"><img src="Zara.png" alt="Zara" /></div>
+                <div class="brand-item"><img src="H&M.jpg" alt="H&M" /></div>
+                <div class="brand-item"><img src="Levi's.jpg" alt="Levi's" /></div>
+                <div class="brand-item"><img src="Supreme.png" alt="Supreme" /></div>
+                <div class="brand-item"><img src="Under Armour.svg" alt="Under Armour" /></div>
+                <div class="brand-item"><img src="Uniqlo.svg" alt="Uniqlo" /></div>
+                <div class="brand-item"><img src="Champion.png" alt="Champion" /></div>
+                <!-- Repeat for infinite effect -->
+                <div class="brand-item"><img src="nike.jpg" alt="Nike" /></div>
+                <div class="brand-item"><img src="Adidas.jpg" alt="Adidas" /></div>
+                <div class="brand-item"><img src="Puma.png" alt="Puma" /></div>
+                <div class="brand-item"><img src="Zara.png" alt="Zara" /></div>
+                <div class="brand-item"><img src="H&M.jpg" alt="H&M" /></div>
+                <div class="brand-item"><img src="Levi's.jpg" alt="Levi's" /></div>
+                <div class="brand-item"><img src="Supreme.png" alt="Supreme" /></div>
+                <div class="brand-item"><img src="Under Armour.svg" alt="Under Armour" /></div>
+                <div class="brand-item"><img src="Uniqlo.svg" alt="Uniqlo" /></div>
+                <div class="brand-item"><img src="Champion.png" alt="Champion" /></div>
+            </div>
+        </section>
+
+        <!-- Category Section -->
+        <section class="category-section">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="Street wear.jpg" alt="Streetwear" />
+                    <h3>Streetwear</h3>
+                    <p class="category-tagline">Unleash Your Street Vibe</p>
+                    <button class="explore-btn">Explore Now</button>
+                </div>
+                <div class="category-card">
+                    <img src="Formal.jpg" alt="Formal" />
+                    <h3>Formal</h3>
+                    <p class="category-tagline">Dress Sharp, Stay Ahead</p>
+                    <button class="explore-btn">Explore Now</button>
+                </div>
+                <div class="category-card">
+                    <img src="Accessories.jpg" alt="Accessories" />
+                    <h3>Accessories</h3>
+                    <p class="category-tagline">Details Define Style</p>
+                    <button class="explore-btn">Explore Now</button>
+                </div>
+                <div class="category-card">
+                    <img src="Casual.jpg" alt="Casual" />
+                    <h3>Casual</h3>
+                    <p class="category-tagline">Comfort Meets Fashion</p>
+                    <button class="explore-btn">Explore Now</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Featured Section -->
+        <section class="featured-section">
+            <div class="section-title">
+                <h2>Trending Now</h2>
+                <p>Hot picks curated just for you 🔥</p>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="./product-1.jpg" alt="Product 1" />
+                    <h3>Urban Street Tee</h3>
+                    <p class="price">₹999</p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="./product-2.png" alt="Product 2" />
+                    <h3>Denim Vibe Jacket</h3>
+                    <p class="price">₹1,999</p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="./product-3.jpg" alt="Product 3" />
+                    <h3>Chic Cargo Pants</h3>
+                    <p class="price">₹1,499</p>
+                    <button class="btn-buy">Buy Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- New Arrivals Section -->
+        <section class="new-arrivals-section">
+            <h2 class="section-title">New Arrivals</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="./Fresh Vibe Tee.jpg" alt="New Arrival 1" />
+                    <h3>Fresh Vibe Tee</h3>
+                    <p class="price">₹899</p>
+                    <button class="btn-buy">Shop Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="./urban hoodie.jpg" alt="New Arrival 2" />
+                    <h3>Urban Hoodie</h3>
+                    <p class="price">₹1499</p>
+                    <button class="btn-buy">Shop Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="sneekers.jpg" alt="New Arrival 3" />
+                    <h3>Casual Sneakers</h3>
+                    <p class="price">₹2199</p>
+                    <button class="btn-buy">Shop Now</button>
+                </div>
+                <div class="product-card">
+                    <img src="cap.jpg" alt="New Arrival 4" />
+                    <h3>Classic Cap</h3>
+                    <p class="price">₹499</p>
+                    <button class="btn-buy">Shop Now</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kids Section -->
+        <section class="kids-section">
+            <h2 class="section-title">Kids Collection</h2>
+            <div class="kids-grid">
+                <div class="kids-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="kids t-shirt.jpg" alt="Kids Product 1" />
+                            <h3>Kids T-Shirt</h3>
+                            <p class="price">$15.99</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Comfortable and colorful kids T-Shirt made with 100% cotton.</p>
+                            <button class="btn-buy">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kids-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="kids shoes.jpg" alt="Kids Product 2" />
+                            <h3>Kids Shoes</h3>
+                            <p class="price">$25.99</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Durable and stylish shoes perfect for kids' outdoor activities.</p>
+                            <button class="btn-buy">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="kids-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="Kids Backpack.avif" alt="Kids Product 3" />
+                            <h3>Kids Backpack</h3>
+                            <p class="price">$18.99</p>
+                        </div>
+                        <div class="card-back">
+                            <p>Spacious and lightweight backpack ideal for school and travel.</p>
+                            <button class="btn-buy">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2 class="section-title">Hear From Our Happy Customers!!</h2>
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <img src="user 1.jpeg" alt="User 1" class="user-img" />
+                    <h3 class="user-name">Karthik S.</h3>
+                    <p class="user-feedback">"Amazing quality and quick delivery! Highly recommend."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="user 2.jpeg" alt="User 2" class="user-img" />
+                    <h3 class="user-name">Anjali R.</h3>
+                    <p class="user-feedback">"Great customer service and very comfortable products."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="user 3.jpeg" alt="User 3" class="user-img" />
+                    <h3 class="user-name">John D.</h3>
+                    <p class="user-feedback">"Loved the kids collection, very vibrant and durable."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="user 4.jpeg" alt="User 4" class="user-img" />
+                    <h3 class="user-name">Meera P.</h3>
+                    <p class="user-feedback">"The designs are trendy and the quality is top-notch."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="user5.png" alt="User 5" class="user-img" />
+                    <h3 class="user-name">Jovin K.</h3>
+                    <p class="user-feedback">"Excellent customer support and fast shipping."</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <img src="user6.png" alt="User 6" class="user-img" />
+                    <h3 class="user-name">Sneha M.</h3>
+                    <p class="user-feedback">"My kids love the clothes, very soft and colorful."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <h2 class="section-title">Stay in the Loop</h2>
+            <p>Subscribe to our newsletter and get exclusive deals & updates.</p>
+            <form class="newsletter-form" action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your email" required />
+                <button type="submit" class="button">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>About Us</h4>
+                <p>TrendAura is your go-to place for the latest fashion trends, delivered right to your door.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 TrendAura. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
